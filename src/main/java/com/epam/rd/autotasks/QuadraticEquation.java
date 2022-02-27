@@ -14,7 +14,6 @@ public class QuadraticEquation {
         double b = scanner.nextDouble();
         double c = scanner.nextDouble();
         double d = b * b - (DISCRIMINANT_AC_MULTIPLIER * a * c);
-        System.out.println(d);
         if (Math.abs(d) < DOUBLE_MARGIN)  {
             System.out.println(-b / (QUOTIENT_MULTIPLIER * a));
         } else if (d > 0) {
